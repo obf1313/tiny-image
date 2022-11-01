@@ -1,0 +1,22 @@
+{
+  "name": "tiny-image",
+  "version": "1.0.0",
+  "description": "tiny png jpeg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "tiny",
+    "png",
+    "image",
+    "jpeg"
+  ],
+  "author": "obf1313",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "tinify": "^1.7.1"
+  }
+}
