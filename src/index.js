@@ -44,7 +44,7 @@ const getAllImages = async srcPath => {
         findPath(fPath)
       }
       if (status.isFile()) {
-        const ext = item.split('.')[item.split('.').length - 1]
+        const ext = item.split('.').pop()
         // 判断该文件是否被压缩过
         if (config.ext.includes(ext) && !alreadyDoneList.includes(fPath)) {
           fileList.push(fPath)
